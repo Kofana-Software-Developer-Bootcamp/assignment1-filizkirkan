@@ -1,0 +1,51 @@
+<html>
+ <head>
+
+ </head>
+ <body>
+     <form method = "post" onsubmit = "return false" style = 'background-color:lightblue;'>
+
+      <h1>Participation Form</h1>
+      <h2>Fill In The Following Form: </h2>
+
+      <label for="FN">First Name: </label>
+      <input type = "text" name="firstname" id="firstname" placeholder="First Name">
+      <br>
+      <br>
+      <label for="LN">Last Name: </label>
+      <input type = "text" name="lastname" id="lastname" placeholder="Last Name">
+      <br>
+      <br>
+      <label for="G">Gender: </label>
+      
+      <label for="M">Male</label>
+      <input type = "radio" name="gender" id="gender1" value="Male">
+      
+      <label for="F">Female</label>
+      <input type = "radio" name="gender" id="gender2" value="Female">
+
+      <label for="O">Other</label>
+      <input type = "radio" name="gender" id="gender3" value="Other">
+      <br>
+      <br>
+      <label for="DOB">Date Of Birth: </label>
+      <input type ="date" name="date" id="date">
+      <br>
+      <br>
+      <label for="E">E-Mail Address: </label>
+      <input type = "email" name="email" id="email" placeholder="E-Mail Address">
+      <br>
+      <br>
+      <label for="B">Bootcamp: </label>
+      <input type = "b" name="b" id="b" placeholder="Bootcamp">
+      <br>
+      <br>
+
+      <button type = "submit" onclick="AddArray()">Submit</button>
+
+     </form>
+ <script src="index.js"></script>
+ </body> 
+</html>
+  
+
