@@ -15,6 +15,7 @@ function AddArray()
         rate_value = document.getElementById('gender3').value;
     }
 
+    /* HTML DOM Elements*/ 
     let data =  {
         firstname: document.getElementById("firstname").value,
         lastname: document.getElementById("lastname").value,
@@ -29,5 +30,6 @@ function AddArray()
     }
 
   const form = [data.datas()];
+  alert("Application received."); 
   console.log(form);
 }
