@@ -10,4 +10,35 @@
     font-size: 25px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+form .form-holder{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+form .form-holder input{
+    margin: 4px 8px 8px 0;
+    height: 30px;
+    padding-left: 8px;
+}
+
+form .form-holder button{
+    margin:8px 8px 0 0;
+    height: 30px;
+}
+form .form-holder select{
+    height: 30px;
+    margin:4px 8px 0 0;
+}
+.container-form{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
 
